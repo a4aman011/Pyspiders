@@ -31,4 +31,3 @@
 # print(a//d)
 
 #
-print(6&3)

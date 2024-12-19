@@ -1,26 +1,26 @@
-# pizza=input("toppings: ")
-# base=100
+pizza=input("toppings: ")
+base=100
 
-# match pizza:
-#     case "onion":
-#         base+=100
-#         print("You have choosen onion as toppings")
-#         print(f"total price - {base}")
+match pizza:
+    case "onion":
+        base+=100
+        print("You have choosen onion as toppings")
+        print(f"total price - {base}")
     
-#     case "paneer":
-#         base+=100
-#         print("You have choosen paneer as toppings")
-#         print(f"total price - {base}")
+    case "paneer":
+        base+=100
+        print("You have choosen paneer as toppings")
+        print(f"total price - {base}")
     
-#     case "cheese":
-#         base+=100
-#         print("You have choosen cheese as toppings")
-#         print(f"total price - {base}")
+    case "cheese":
+        base+=100
+        print("You have choosen cheese as toppings")
+        print(f"total price - {base}")
 
 
-#     case _:
-#         print("You haven't choosen any toppings")
-#         print(f"total price - {base}")
+    case _:
+        print("You haven't choosen any toppings")
+        print(f"total price - {base}")
 
 
 pizza = input("Enter toppings: ")
@@ -66,9 +66,9 @@ match pizza:
         print("You have choosen onion as toppings")
         print(f"total price - {base}")
 
-    # case _:
-    #     print("You haven't choosen any toppings")
-    #     print(f"total price - {base}")
+    case _:
+        print("You haven't choosen any toppings")
+        print(f"total price - {base}")
 
     
     
